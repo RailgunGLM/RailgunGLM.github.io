@@ -37,7 +37,7 @@ body {
 /* Header Styles */
 header {
     background: var(--secondary-dark);
-    padding: 20px 0;
+    padding: 10px 0; /* Reduced from 20px 0 to 10px 0 */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -53,15 +53,15 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 1.8rem;
+    gap: 8px; /* Slightly reduced gap */
+    font-size: 1rem; /* Reduced from 1.8rem */
     font-weight: 700;
     color: var(--text-light);
 }
 
 .logo i {
     color: var(--accent-purple);
-    font-size: 2rem;
+    font-size: 1.5rem; /* Reduced from 2rem */
 }
 
 nav ul {
