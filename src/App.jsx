@@ -12,8 +12,8 @@ function App() {
       if (window.puter && window.puter.ai && typeof window.puter.ai.chat === "function") {
         clearInterval(checkReady);
         setIsReady(true);
-        const response = await window.puter.ai.chat("Give me a quote");
-        setQuote(response);
+        //const response = await window.puter.ai.chat("Give me a quote");
+        setQuote("test");
       }
     }, 300);
   }, []);
